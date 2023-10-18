@@ -1,0 +1,16 @@
+body{
+    height: 100px;
+}
+
+.MainDiv {
+    margin: auto;
+    padding: 25px;
+    width: 65%;
+   background-color: beige;
+}
+
+@media(max-width:500px) {
+    .MainDiv {
+        width: 95%;
+    }
+}
